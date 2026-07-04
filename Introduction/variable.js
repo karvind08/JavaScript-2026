@@ -5,3 +5,7 @@ console.log(name);
 console.log(email);
 console.log(address);
 console.log("My name is " + name + ", my email is " + email + ", and I live in " + address + ".");
+console.log(`
+    My name is ${name},
+    my email is ${email}, 
+    I live in ${address}.`);
