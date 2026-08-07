@@ -4,6 +4,6 @@ let person ={
     greet: function(){
         console.log("Hello, I am Arvind");
     }
-}
+};
 console.log(person);
 person.greet();
