@@ -1,6 +1,7 @@
-// console.log(name);
-// var name = "Arvind";
-
-
+// var name;
 console.log(name);
-let name = "Arvind";
+var name = "Arvind";
+
+
+// console.log(name);
+// let name = "Arvind";
