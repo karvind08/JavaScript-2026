@@ -1,7 +1,7 @@
 var name = "Arvind";
-function display(){
+var age = 18;
+if(age<40){
     var name = "Yuvaan";
-    console.log(name);
+    // console.log(name);
 }
-display();
 console.log(name);
