@@ -1,5 +1,5 @@
 disp();
 function disp(){
-    var name = "Arvind";
+    let name = "Arvind";
     console.log(name);
 }
