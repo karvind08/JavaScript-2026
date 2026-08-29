@@ -7,3 +7,6 @@ const person ={
 };
 
 person.greet();
+person.name = "Yuvaan";
+person.age = 5;
+person.greet();
