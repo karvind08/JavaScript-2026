@@ -5,7 +5,7 @@ function outer(){
         console.log(username);
         console.log(platform);
     }
-    console.log(platform);
+    // console.log(platform);
     inner();
 }
 outer();
