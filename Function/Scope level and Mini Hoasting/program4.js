@@ -4,6 +4,4 @@ if(true){
         const last = " Kumar";
         console.log(first+last);
     }
-    // console.log(last);
 }
-// console.log(first);
