@@ -1,0 +1,4 @@
+function display(a,b){
+    return a+b;
+}
+console.log(display(10,20));
