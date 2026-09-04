@@ -1,2 +1,5 @@
-const res = ()=> console.log("Hello");
+const res = ()=>{
+    console.log("Hello");
+}
+    
 res();
