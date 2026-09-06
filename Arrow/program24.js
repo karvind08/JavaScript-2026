@@ -4,5 +4,5 @@ const person = {
         return this.name;
     }
 };
-let P1 = person.greet;
+let P1 = person.greet.bind(person);
 console.log(P1());

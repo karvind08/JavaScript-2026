@@ -1,3 +1,4 @@
+"use strict"
 const person = {
     name:"Arvind",
     greet: function(){
