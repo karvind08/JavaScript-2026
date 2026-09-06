@@ -4,5 +4,5 @@ const person = {
         return this.name;
     }
 };
-
-console.log(person.greet());
+let P1 = person.greet;
+console.log(P1());
