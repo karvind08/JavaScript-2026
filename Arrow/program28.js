@@ -1,4 +1,7 @@
 function Person(name){
+    if(!new.target){
+        return new Person(name);
+    }
     this.name = name;
 }
 Person.prototype.getName = function(){
