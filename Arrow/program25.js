@@ -7,5 +7,4 @@ Person.getName = function(){
 
 let P1 = new Person("Arvind");
 console.log(P1.name);
-let P2 = new Person("Yuvaan");
-console.log(P2.name);
+console.log(Person.getName());
