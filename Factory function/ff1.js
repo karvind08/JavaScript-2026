@@ -7,6 +7,5 @@ function createPerson(fname,lname){
     }
 }
 }
-
 const p1 = createPerson("Arvind","Kumar");
 console.log(p1.getFullname());
