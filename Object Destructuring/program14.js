@@ -5,9 +5,7 @@ let employee = {
         lastName: 'Kumar'
     }
 };
-
 let {myName: {firstName,lastName},myName} = employee;
-
 console.log(firstName); 
 console.log(lastName); 
 console.log(myName);
