@@ -13,5 +13,5 @@ const employee = Object.create(person, {
 console.log(employee.job);  
 console.log(employee.firstName);    
 console.log(employee.lastName);     
-employee.job = "React Developer";
+delete employee.job
 console.log(employee.job); 
