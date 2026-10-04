@@ -11,7 +11,6 @@ function getUser(id) {
         }
     }
 }
-// console.log(getUser(1));
 let user = getUser(1);
 let profile = user.profile;
 let userName = user.username;

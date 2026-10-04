@@ -14,4 +14,3 @@ function getUser(id) {
 let user = getUser(1);
 let profile = user.profile;
 console.log(profile);
-
