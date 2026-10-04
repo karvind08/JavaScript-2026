@@ -19,3 +19,5 @@ console.log(employee.job.company);
 console.log(employee.firstName);    
 console.log(employee.lastName);     
 console.log(employee.hasOwnProperty('job'));
+console.log(employee.hasOwnProperty('firstName'));
+console.log(person.hasOwnProperty('firstName'));
