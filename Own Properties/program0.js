@@ -12,7 +12,3 @@ const employee = Object.create(person, {
 console.log(person.firstName);
 console.log(person.lastName);
 console.log(employee.job);
-
-
-
-
