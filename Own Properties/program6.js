@@ -11,9 +11,7 @@ const employee = Object.create(person, {
         enumerable: true,
         configurable: true
     }
-});
-console.log(person.firstName);      
-console.log(person.lastName);       
+});    
 console.log(employee.job.profile);  
 console.log(employee.firstName);    
 console.log(employee.lastName);     
