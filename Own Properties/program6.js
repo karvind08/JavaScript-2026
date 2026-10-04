@@ -4,14 +4,14 @@ const person = {
 };
 const employee = Object.create(person, {
     job: {
-        value: {
-            profile: "JS Developer"
-        },
+        value: "JS Developer",
         writable: true,
         enumerable: true,
         configurable: true
     }
 });    
-console.log(employee.job.profile);  
+console.log(employee.job);  
 console.log(employee.firstName);    
 console.log(employee.lastName);     
+employee.job = "React Developer";
+console.log(employee.job);  
