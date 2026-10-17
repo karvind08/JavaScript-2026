@@ -6,3 +6,5 @@ Person.prototype.getName = function(){
 }
 let name1 = new Person("Arvind Kumar");
 console.log(name1.getName());
+console.log(name1 instanceof Person);
+console.log(name1 instanceof Object);
