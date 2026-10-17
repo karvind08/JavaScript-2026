@@ -8,6 +8,6 @@ class Person{
 }
 
 let obj1 = new Person("Arvind");
-let myName = obj1.getName();
-console.log(myName);
+console.log(obj1.getName());
+
 
