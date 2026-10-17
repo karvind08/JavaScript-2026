@@ -6,7 +6,6 @@ class Person{
         return this.name;
     }
 }
-
 let obj1 = new Person("Arvind");
 console.log(obj1.getName());
 
