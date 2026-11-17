@@ -3,7 +3,8 @@ const Parent = {
 };
 
 const Child = {
-    role:"Student",
+    // role:"Student",
 };
 Object.setPrototypeOf(Child,Parent);
 console.log(Child.role);
+console.log(Parent.role);
