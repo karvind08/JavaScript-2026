@@ -3,7 +3,7 @@ let person = {
   lastName: 'Kharwal',
   currentAge: 44
 };
-let { firstName, middleName = '', lastName,  currentAge} = person;
+let { firstName, middleName = '-', lastName,  currentAge} = person;
 console.log(firstName);
 console.log(middleName); 
 console.log(lastName);
