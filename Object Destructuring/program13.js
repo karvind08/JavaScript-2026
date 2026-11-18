@@ -1,12 +1,12 @@
 let employee = {
     id: 1001,
-    name: {
+    fullName: {
         firstName: 'Arvind',
         lastName: 'Kumar'
     }
 };
 
-let { id,name: {firstName,lastName}} = employee;
+let { id,fullName: {firstName,lastName}} = employee;
 console.log(id);
 console.log(firstName); 
 console.log(lastName); 
